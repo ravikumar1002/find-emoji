@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto auto;
+  border-radius: 50px;
+  background: linear-gradient(315deg, #ababab, #cbcbcb);
+  box-shadow: -39px -39px 87px #909090, 39px 39px 87px #ececec;
+  padding: 2rem;
+  width: 50%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+input {
+  width: 70%;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border: 2.5px solid black;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+.container-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bebebe;
+}
