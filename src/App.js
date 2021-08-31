@@ -9,7 +9,9 @@ var emojiDictionary = {
   "🌇": "Travel & Places",
   "💡": "Objects",
   "🔣": "Symbols",
-  "🎌": "Flags"
+  "🎌": "Flags",
+  "🙄":"Face with rollling eyes",
+  "😛":"Squinting face with tongue"
 };
 
 var emojiKey = Object.keys(emojiDictionary);
