@@ -10,8 +10,8 @@ var emojiDictionary = {
   "💡": "Objects",
   "🔣": "Symbols",
   "🎌": "Flags",
-  "🙄":"Face with rollling eyes",
-  "😛":"Squinting face with tongue"
+  "🙄": "Face with rollling eyes",
+  "😛": "Squinting face with tongue"
 };
 
 var emojiKey = Object.keys(emojiDictionary);
@@ -21,7 +21,7 @@ export default function App() {
 
   function emojisearchHandler(event) {
     var inputEmoji = event.target.value;
-     if (inputEmoji === emojiDictionary.key) {
+    if (inputEmoji === emojiDictionary.key) {
       var searchEmoji = emojiDictionary[inputEmoji];
       setMeaning(searchEmoji);
     } else {
