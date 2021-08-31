@@ -21,8 +21,12 @@ export default function App() {
 
   function emojisearchHandler(event) {
     var inputEmoji = event.target.value;
-    var searchEmoji = emojiDictionary[inputEmoji];
-    setMeaning(searchEmoji);
+     if (inputEmoji === emojiDictionary.key) {
+      var searchEmoji = emojiDictionary[inputEmoji];
+      setMeaning(searchEmoji);
+    } else {
+      setMeaning("Sorry emoji not found ");
+    }
   }
 
   function emojiClickHandler(emoji) {
