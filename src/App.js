@@ -17,20 +17,26 @@ var emojiDictionary = {
 var emojiKey = Object.keys(emojiDictionary);
 
 export default function App() {
-  var [meaning, setMeaning] = useState("");
+  const [meaning, setMeaning] = useState("");
 
   function emojisearchHandler(event) {
-    var inputEmoji = event.target.value;
-    if (inputEmoji === emojiDictionary.key) {
+    const inputEmoji = event.target.value;
+
+    if (inputEmoji.trim().length <= 0) {
+      setMeaning("");
+      return;
+    }
+
+    if (emojiDictionary[inputEmoji]) {
       var searchEmoji = emojiDictionary[inputEmoji];
       setMeaning(searchEmoji);
     } else {
-      setMeaning("Sorry emoji not found ");
+      setMeaning("Sorry emoji not found");
     }
   }
 
   function emojiClickHandler(emoji) {
-    var searchEmoji = emojiDictionary[emoji];
+    const searchEmoji = emojiDictionary[emoji];
     setMeaning(searchEmoji);
   }
 
