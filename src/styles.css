@@ -47,3 +47,36 @@ h3 {
   align-items: center;
   background-color: #bebebe;
 }
+
+@media only screen and (max-width: 1100px) and (min-width: 700px) {
+  .App {
+    width: 78%;
+  }
+}
+
+@media only screen and (max-width: 705px) and (min-width: 570px) {
+  .App {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .App {
+    width: 95%;
+    padding: 2rem 1rem;
+    margin: 1.2rem;
+  }
+  h1 {
+    margin: auto;
+    font-size: 2.5rem;
+  }
+  input {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
