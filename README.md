@@ -1,2 +1,4 @@
 # find-emoji
-Created with CodeSandbox
+
+In this app you can find your emoji meaning with easy way
+😀
