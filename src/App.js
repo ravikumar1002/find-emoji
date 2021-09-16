@@ -3,14 +3,14 @@ import "./styles.css";
 
 var emojiDictionary = {
   "😃": "Smileys & People",
-  "🐻": "Animals & Nature",
-  "🍔": "Food & Drink",
-  "⚽": "Activity",
-  "🌇": "Travel & Places",
-  "💡": "Objects",
-  "🔣": "Symbols",
-  "🎌": "Flags",
-  "🙄": "Face with rollling eyes",
+  "😅": "Grinning Face with Sweat",
+  "😬": "Grimacing Face",
+  "☠️": "Skull and Crossbones",
+  "😟": " Worried Face",
+  "🥺": "Pleading Face",
+  "😩": "Weary Face",
+  "👶": "Baby",
+  "🙂": "Slightly Smiling Face",
   "😛": "Squinting face with tongue"
 };
 
