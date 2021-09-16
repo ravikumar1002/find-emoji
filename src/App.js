@@ -47,7 +47,7 @@ export default function App() {
         <input onChange={emojisearchHandler} />
         <h2>{meaning}</h2>
 
-        <h3>Types of emoji</h3>
+        <h3>emojis we know</h3>
         {emojiKey.map(function (emoji) {
           return (
             <span
