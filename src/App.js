@@ -27,8 +27,11 @@ export default function App() {
       return;
     }
 
-    if (emojiDictionary[inputEmoji]) {
-      var searchEmoji = emojiDictionary[inputEmoji];
+    const inputWithTrim = inputEmoji.trim();
+
+    if (emojiDictionary[inputWithTrim]) {
+      var searchEmoji = emojiDictionary[inputWithTrim];
+
       setMeaning(searchEmoji);
     } else {
       setMeaning("Sorry emoji not found");
