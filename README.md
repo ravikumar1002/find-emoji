@@ -12,6 +12,5 @@
    * CSS
    * Javascript
    * Reactjs
-   * Netlify(for hosting)
 
 Don't forget to leave a ⭐ if you found this useful & interesting. 
